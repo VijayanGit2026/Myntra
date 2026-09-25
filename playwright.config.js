@@ -37,17 +37,18 @@ export default defineConfig({
   },
 
   /* Configure projects for major browsers */
-  projects: [
-    {
-       name: "chromium",
-      use: {
-        viewport: null,
-        launchOptions: {
-          args: ["--start-maximized"],
-          slowMo: 1000,
-        }
+  
+    projects: [
+  {
+    name: "chromium",
+    use: {
+      viewport: null,
+      launchOptions: {
+        args: ["--start-maximized"]
       }
     }
+  }
+],
 
     // {
     //   name: 'firefox',
